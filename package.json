@@ -1,0 +1,15 @@
+{
+  "name": "bmw-m-web-site",
+  "version": "1.0.0",
+  "description": "This web-site is made for just BMW",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Xurshid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "path": "^0.12.7"
+  }
+}
