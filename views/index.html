@@ -9,38 +9,51 @@
 </head>
 
 <body>
+    <video autoplay muted class="preloader">
+        <source src="/pictures/loading(1).mp4" class="loader">
+    </video>
 
     <video autoplay loop muted plays-inline class="background">
         <source src="/pictures/videoplayback (1).mp4">
     </video>
-    <div class="mainTitle">
-        THE M
-    </div>
-
-    <div class="header">
-        <div class="container">
-            <div class="logo">
-                <img src="/pictures/pngwing.com.png" alt="Logo">
-            </div>
-            <div class="titles">
-                <div class="title1 title">
-                    Support
+    <div class="content">
+        <div class="mainTitle">
+            THE M
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="/pictures/pngwing.com.png" alt="Logo">
                 </div>
-                <div class="title2 title">
-                    Models
-                </div>
-                <div class="title3 title">
-                    Call
-                </div>
-                <div class="title4 title">
-                    Gen M
+                <div class="titles">
+                    <div class="title1 title">
+                        Support
+                    </div>
+                    <div class="title2 title">
+                        Models
+                    </div>
+                    <div class="title3 title">
+                        Call
+                    </div>
+                    <div class="title4 title">
+                        Gen M
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="main">
+        </div>
+    </div>
 
-    </div>
-    <div class="main">
-    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        const preloader = document.querySelectorAll("preloader")
+
+        $(window).on("load",function(){
+            $(".preloader").fadeOut(6000)
+        })
+    </script>
 </body>
 
 </html>
