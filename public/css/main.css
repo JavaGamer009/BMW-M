@@ -108,6 +108,7 @@
     width: 45%;
     margin-top: 50px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .imgBox img {
