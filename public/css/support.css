@@ -3,6 +3,7 @@
     margin: 0;
     font-family: sans-serif;
     text-decoration: none;
+    text-align: center; 
 }
 
 body {
@@ -12,17 +13,11 @@ body {
 .box {
     width: 50%;
     margin: 0 auto;
-    background-color: #fff;
-    height: 100vh;
-}
-
-.near {
-    display: flex;
-    justify-content: space-between; 
+    background-color: beige;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;  
+    padding: 10px;
+    border-radius: 10px; 
 }
 
 .creator-2 {
@@ -41,6 +36,9 @@ body {
     margin-top: 100px;
     width: 80%;
     margin: 0 auto;
+    border: 1px solid #333;
+    padding: 20px;
+    height: 30vh;
 }
 
 .gmail {
@@ -57,4 +55,15 @@ body {
     color: white;
     font-size: 30px;
     border-radius: 10px;
+}
+.info {
+    margin-top: 40px;
+}
+.info h3 {
+    font-size: 30px;
+    color: black;
+}
+.info p {
+    font-size: 20px;
+    color: black;
 }
