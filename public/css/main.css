@@ -1,6 +1,11 @@
 * {
     margin: 0;
     font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
 }
 
 .preloader {
@@ -15,9 +20,6 @@
 }
 
 .loader {
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid #3498db;
-    border-radius: 50%;
     width: 120px;
     height: 120px;
     animation: spin 2s linear infinite;
@@ -35,7 +37,7 @@
     top: 0px;
     width: 100%;
     height: 120px;
-    background-color: white;
+    background-color: #333;
     box-shadow: -1px 10px 34px 5px rgba(0,0,0,0.86);
     -webkit-box-shadow: -1px 10px 34px 5px rgba(0,0,0,0.86);
     -moz-box-shadow: -1px 10px 34px 5px rgba(0,0,0,0.86);
@@ -54,11 +56,15 @@
 .logo {
     width: 15%;
 }
+.support {
+    color: white;
+}
 .titles {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 20px;
+    color: white;
 }
 .title {
     cursor: pointer;
@@ -104,7 +110,7 @@
     flex-wrap: wrap;
 }
 .modelBox {
-    background-color: white;
+    background-color: #333;
     width: 45%;
     margin-top: 50px;
     cursor: pointer;
@@ -118,8 +124,12 @@
 
 .boxTitle {
     height: 50px;
-    color: black;
+    color: white;
     font-size: 50px;
+}
+
+.click {
+    color: white;
 }
 
 @media (max-aspect-ratio: 16/9) {
@@ -133,4 +143,50 @@
         width: auto;
         height: 100%;
     }
+}
+
+.footer {
+    background-color: white;
+    margin-top: 30px;
+}
+.footerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.devs {
+    font-size: 40px;
+}
+
+.create h3 {
+    margin-bottom: 10px;
+}
+
+.gmail {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.github {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.footerBottom {
+    padding: 40px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
 }
