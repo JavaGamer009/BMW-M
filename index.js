@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', "index.html"))
 })
 
+app.get('/support', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', "support.html"))
+});
+
 app.listen(PORT, () => {
     console.log(`${PORT} port is running`)
 })

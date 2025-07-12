@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
+}
+
+.box {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.near {
+        position: relative;
+        top: 50px;
+        left: 300px;
+}
+.creator-2 {
+    margin-top: 20px;   
+}
+.creator-1 h3 {
+    font-size: 40px;
+}
+
+.creator-2 h3 {
+    font-size: 40px;
+}
+.info {
+    margin-top: 50px;
+}
+.gmail {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.github {
+        padding: 10px;
+    background-color: rgb(20, 56, 122);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
