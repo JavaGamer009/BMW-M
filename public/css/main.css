@@ -36,7 +36,7 @@
     width: 1920px;
     height: 120px;
     background-color: white;
-    bbox-shadow: -1px 10px 34px 5px rgba(0,0,0,0.86);
+    box-shadow: -1px 10px 34px 5px rgba(0,0,0,0.86);
     -webkit-box-shadow: -1px 10px 34px 5px rgba(0,0,0,0.86);
     -moz-box-shadow: -1px 10px 34px 5px rgba(0,0,0,0.86);
 }
@@ -91,4 +91,31 @@
 
 .loaded #content {
     display: block; /* Show content after loading */
+}
+
+.main {
+    margin-top: 1000px;
+    width: 100%;
+}
+.containerM {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.modelBox {
+    background-color: white;
+    width: 45%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.imgBox img {
+    width: 100%;
+}
+
+.boxTitle {
+    height: 50px;
+    color: black;
+    font-size: 50px;
 }
