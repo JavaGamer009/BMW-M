@@ -17,13 +17,18 @@ body {
 }
 
 .near {
-        position: relative;
-        top: 50px;
-        left: 300px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
 }
+
 .creator-2 {
-    margin-top: 20px;   
+    margin-top: 20px;
 }
+
 .creator-1 h3 {
     font-size: 40px;
 }
@@ -31,9 +36,13 @@ body {
 .creator-2 h3 {
     font-size: 40px;
 }
+
 .info {
-    margin-top: 50px;
+    margin-top: 100px;
+    width: 80%;
+    margin: 0 auto;
 }
+
 .gmail {
     padding: 10px;
     background-color: black;
@@ -41,8 +50,9 @@ body {
     font-size: 30px;
     border-radius: 10px;
 }
+
 .github {
-        padding: 10px;
+    padding: 10px;
     background-color: rgb(20, 56, 122);
     color: white;
     font-size: 30px;
