@@ -13,7 +13,7 @@ body {
 .box {
     width: 50%;
     margin: 0 auto;
-    background-color: beige;
+    background-color: #fff;
     align-items: center;
     margin-top: 40px;  
     padding: 10px;
@@ -38,7 +38,7 @@ body {
     margin: 0 auto;
     border: 1px solid #333;
     padding: 20px;
-    height: 30vh;
+    height: 42vh;
 }
 
 .gmail {

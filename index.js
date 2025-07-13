@@ -12,9 +12,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', "index.html"))
 })
 
-app.get('/support', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', "support.html"))
-});
+app.get('/Contact', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', "Contact.html"))
+})
 
 // Bu yerdan boshlab Modellar qo'yilgan
 
