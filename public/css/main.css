@@ -186,11 +186,29 @@ body {
     border-radius: 5px;
     padding: 10px;
 }
-.footerBottom {
-    padding: 40px;
-    margin: 0 auto;
+footer {
     width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.fuck_you {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer_driver {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.who_by {
+    margin-top: 20px;
+    display: flex;
     text-align: center;
-    font-size: 50px;
-    color: white;
+    justify-content: center;
 }
