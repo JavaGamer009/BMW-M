@@ -206,6 +206,16 @@ footer {
     justify-content: space-between;
     width: 100%;
 }
+.footerLinks a {
+    padding: 10px 15px;
+    border: 1px solid blue;
+}
+.footerLinks a i {
+    color: red;
+}
+.footerLink {
+    border: 1px solid rgb(141, 46, 62);
+}
 .who_by {
     margin-top: 20px;
     display: flex;
